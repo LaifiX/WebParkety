@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: main  # zmeň podľa vetvy v GitHube
 
+  publish_mode: editorial_workflow  # TOTO PRIDAJTE
+
 media_folder: "Images"       # kde sa ukladajú obrázky v repozitári
 public_folder: "/Images"     # cesta z pohľadu webu
 
