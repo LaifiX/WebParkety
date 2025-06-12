@@ -151,7 +151,9 @@ document.addEventListener("DOMContentLoaded", function() {
             gsap.set([".nav-header-image", ".nav-item"], { clearProps: "all" });
         }
     });
-    
+});
+
+/*     
 // --- PRIDANÉ: Oneskorené načítanie skriptu tretej strany (Elfsight) ---
 
     // Táto funkcia sa postará o načítanie skriptu a spustí sa iba raz
@@ -173,3 +175,4 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener('mousemove', loadElfsightScript, { once: true });
     window.addEventListener('touchstart', loadElfsightScript, { once: true });
 });
+*/
